@@ -9,7 +9,7 @@ func main() {
 
 	var b bool = true    //布尔
 	var a int = -3       //整数
-	var c float64 = 3.14 //浮点数
+	var c float64 = 3.14 //浮点数  float32 32位浮点数
 	var w string = "ccc" //字符串
 	var t [5]string      // 字符数组
 	var y [2]int         //int数组
