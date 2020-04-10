@@ -1,3 +1,4 @@
+//+build ignore
 package main
 
 import (
@@ -33,6 +34,7 @@ func main() {
 	fmt.Println(addition(2, 1))
 
 }
+
 func syaHello(s string) string {
 	return "Hello " + s
 }

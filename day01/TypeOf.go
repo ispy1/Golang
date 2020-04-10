@@ -1,4 +1,5 @@
 //+build ignore
+//reflect  反射  [riˈflekt]
 package main
 
 import (
