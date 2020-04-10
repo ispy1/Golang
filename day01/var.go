@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+//变量
 func main() {
 
 	var b bool = true    //布尔
