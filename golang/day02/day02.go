@@ -1,19 +1,17 @@
 //+build ignore
-//reflect  反射  [riˈflekt]
 package main
 
 import (
 	"fmt"
 	"reflect"
+	"strconv"
 )
 
 func main() {
-	var s string = "ccc"
-	var i int = 5
-	var b bool
-	f := "aaa"
+	var s bool = true
 	fmt.Println(reflect.TypeOf(s))
-	fmt.Println(reflect.TypeOf(i))
+	var b string = strconv.FormatBool(s)
 	fmt.Println(reflect.TypeOf(b))
-	fmt.Println(f)
+	fmt.Println(&b)
+
 }
