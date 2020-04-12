@@ -1,4 +1,4 @@
-<font size=5>fmt 输出注意</font>
+##fmt 输出注意
 fmt.Println不格式化像这样的东西%d。而是使用其参数的默认格式，并在参数之间添加空格。
 
 fmt.Println("Hello, playground",i)  // Hello, playground 5
