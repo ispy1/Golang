@@ -8,3 +8,17 @@ fmt.Printf("Hello, playground %d\n",i)
 而且您不必特别讲究类型。%v通常会弄清楚。
 
 fmt.Printf("Hello, playground %v\n",i)
+
+
+
+defer 语句
+在函数返回前执行另一个函数
+多条defer语句 按顺序执行
+eg
+defer fmt.println("ccc")
+defer fmt.println("aaa")
+fmt.println("bbb")
+输出
+ccc
+bbb
+aaa

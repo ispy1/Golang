@@ -32,5 +32,8 @@ func main() {
 	fmt.Println(result)
 	fmt.Println(sayHi())
 	fmt.Println(feedMe(1, 0))
-
+	fn := func() {
+		fmt.Println("called")
+	}
+	fn()
 }
