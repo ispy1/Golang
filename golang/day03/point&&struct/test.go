@@ -27,8 +27,12 @@ func main() {
 	fmt.Println(a.Age, a.Name)
 	fmt.Println(b)
 	c := cat{
-		"aaa",
-		6,
+		Name:"aaa",
+		Age:7,
+	}
+	e:=cat{
+		Name:"doujiang",
+		Age:8,
 	}
 	fmt.Println(c)
 	d := HomeCat{
@@ -40,4 +44,16 @@ func main() {
 	}
 	fmt.Println(d)
 	fmt.Println(d.cat.Age)
+	if a==e{
+		fmt.Println("true")
+	}else{
+		fmt.Println("flase")
+	}
+	f:=&a
+	f.Age=8
+	fmt.Println(*&f)
+	fmt.Printf("%p\n",&a)
+	fmt.Println(f)
+	fmt.Println(a)
+	
 }
