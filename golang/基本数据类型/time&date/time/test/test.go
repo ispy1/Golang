@@ -25,4 +25,5 @@ func main() {
 	s := t.Format("20060102")
 	fmt.Println(t, "=>", s)
 	// Wed Dec 21 08:52:14 +0000 UTC 2011 => 20111221
+	
 }
