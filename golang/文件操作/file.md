@@ -52,5 +52,13 @@
 
 读文件：
     按行读
+            创建一个带有缓冲区的Reader
+                reader :=bufio.NewReader(打开的文件指针)
+            从reader的缓冲区中，读取指定长度的数据 数据长度取决于参数dlime(分隔符)
+                buf,err:=reader.ReadBytes('\n') 按行读
+                判断到达文件结尾 if err!=nil && err==io.EOF 到文件结尾
+                 文件结束标记 是要单独读一次获取到
+
+
 
     按自己读
